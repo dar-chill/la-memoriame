@@ -1,0 +1,4 @@
+.env
+credz.txt
+__pycache__/
+*.pyc
