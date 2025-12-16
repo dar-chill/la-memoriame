@@ -11,7 +11,7 @@ import re
 load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-MODEL = "openrouter/quasar-alpha"
+MODEL = "mistralai/mistral-7b-instruct:free"
 
 # === INTENTS AND BOT SETUP ===
 intents = discord.Intents.default()
